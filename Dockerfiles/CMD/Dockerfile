@@ -1,2 +1,2 @@
 FROM run:v1
-CMD ["nginx", "-g", "daemon reload;"]
+CMD ["nginx", "-g", "daemon off;"]
