@@ -4,4 +4,3 @@ RUN mkdir /tmp/workdir
 WORKDIR /tmp/workdir
 RUN pwd
 RUN echo "This is a test file" > /tmp/workdir/testfile.txt
-CMD ["sleep", "1000"]
