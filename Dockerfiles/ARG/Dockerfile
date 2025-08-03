@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:-9
+FROM almalinux:${version:-9}
 ENV Name="sameer" \
     designation="DevOps Engineer" 
 ARG experience=3
