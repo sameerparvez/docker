@@ -4,5 +4,5 @@ ENV Name="sameer" \
     designation="DevOps Engineer" 
 ARG experience="3"
 ENV experience="${experience}" #Set the ARG as an environment variable to acess it in the container
-RUN echo "Name: $Name, Designation: $designation, Experience: $experience years"
+RUN sh -c 'echo "Name: $Name, Designation: $designation, Experience: $experience years"
 CMD ["sleep", "1000"]
